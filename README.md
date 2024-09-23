@@ -1,4 +1,4 @@
-<img width="70%" src="/assets/OpenCalido.png?raw=true">
+<img width="70%" src="./assets/OpenCalido.png?raw=true">
 
 # OpenCalido
 **[_WIP_]** DIY ESP32 Smart Thermostat with Matter  

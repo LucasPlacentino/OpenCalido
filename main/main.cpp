@@ -1,6 +1,8 @@
 // #include <stdio.h>
 #include "services/setup.cpp"
 
+#define delay(ms) vTaskDelay(pdMS_TO_TICKS(ms))
+
 void app_main(void)
 {
     setup();
@@ -11,3 +13,6 @@ void app_main(void)
 
     // return 0;
 }
+
+
+// TODO: use espressif BSP for M5Dial ? https://components.espressif.com/components/espressif/m5dial
